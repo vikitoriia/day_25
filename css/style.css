@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap');
+
+@font-face {
+	font-family: 'Playfair Display';
+	src: url('../fonts/PlayfairDisplay-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+  font: 400 18px/1.88 "Lato", sans-serif;
+  background: #fff;
+  color: #a9a9a9;
+  max-width: 1637px;
+  min-height: 100%;
+}
+
+.ba-container {
+  padding: 108px 136px 130px 122px;
+  max-width: 1401px;
+  margin: 141px 138px 120px 122px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+
+.ba-title {
+  opacity: 1;
+  color: #171717;
+  font-family: "Playfair Display", serif;
+  font-size: 42px;
+  margin-bottom: 20px;
+  font-weight: 400;
+  padding-left: 124px;
+}
+
+p:not(:last-child) {
+  font-weight: 300;
+  color: #171717;
+  line-height: 1.79;
+  opacity: 0.7;
+  margin-bottom: 35px;
+  padding-left: 122px;
+}
+
+.ba-first-letter:first-letter {
+  color: #171717;
+  float: left;
+  font-size: 110px;
+  font-family: "Playfair Display", serif;
+  font-weight: 400;
+  padding: 0 27px 26px 0;
+  line-height: 0.7;
+}
+
+.ba-last-citation {
+  font-size: 24px;
+  color: #7a7a7a;
+  margin-bottom: 50px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 2px;
+}
+
+.ba-last-citation::before {
+  content: "“";
+  color: #8a8a8a;
+  font-size: 60px;
+}
+
+.ba-button-discover {
+  border: 2px solid #e8a15f;
+  padding: 21px 84px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e8a15e;
+  margin: 38px 121px 120px;
+}
